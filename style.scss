@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+}
+
+body{
+    margin: 5px;
+    padding: 0;
+    font-size: 16px;
+}
+.content{
+    p{
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+.click{
+    
+    a{
+    display: block;
+    font-size: 4rem; 
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    }
+    a:link{
+        color: #fff;
+        text-decoration: underline;
+        text-decoration-color: #FFF;
+        text-decoration-style: dotted;
+        text-decoration-thickness: 9px;
+        text-underline-position: under;
+    }
+   
+    a:visited {
+        color: red;
+        text-decoration: underline;
+        text-decoration-color: red;
+        text-decoration-style: dotted;
+        text-decoration-thickness: 9px;
+    }
+     a:hover{
+    background-color: red;
+    color: #FFF;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .click{
+            a{font-size: 3.3rem;
+        }
+    }
+}
+@media screen and (max-width: 435px) {
+    .click{
+            a{font-size: 2.7rem;
+        }
+    }
+}
+@media screen and (max-width: 390px) {
+    .click{
+            a{font-size: 2.5rem;
+        }
+    }
+}
